@@ -4,7 +4,7 @@
 /**
  * main - print alphabets in lowercase, except for q and e.
  *
- * Return : Always 0 (success)
+ * Return: Always 0 (success)
  *
  */
 int main(void)
