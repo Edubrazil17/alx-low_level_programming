@@ -12,11 +12,12 @@ int main(void)
 	int i;
 	int n;
 
-	for (i = 0; i < 100; i++)
+	for (i = 0; i < 98; i++)
 	{
-		for (n = 0; n < 100; n++)
+		for (n = 0; n < 99; n++)
 		{
 			if (i < n)
+			{
 				putchar((i / 10) + '0');
 				putchar((i % 10) + '0');
 				putchar(' ');
@@ -27,6 +28,7 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+			}
 		}
 	}
 
