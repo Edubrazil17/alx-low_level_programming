@@ -18,11 +18,11 @@ int main(void)
 		{
 			if (i < n)
 			{
-				putchar((i / 10) + 0);
-				putchar((i % 10) + 0);
+				putchar((i / 10) + '0');
+				putchar((i % 10) + '0');
 				putchar(' ');
-				putchar((n / 10) + 0);
-				putchar((n % 10) + 0);
+				putchar((n / 10) + '0');
+				putchar((n % 10) + '0');
 				if (i != 98 || n != 99)
 				{
 					putchar(',');
