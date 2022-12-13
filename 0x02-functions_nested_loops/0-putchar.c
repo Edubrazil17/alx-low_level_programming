@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-main - Entry point
-
-Return: 0
+* main - Entry point
+*
+* Return: 0
 */
 int main(void)
 
-{	
+{
 	_putchar('_');
 
 	_putchar('p');
@@ -24,8 +24,8 @@ int main(void)
 
 	_putchar('r');
 
-	_putchar('\n');										
-	
+	_putchar('\n');
+
 	return (0);
 
 }
