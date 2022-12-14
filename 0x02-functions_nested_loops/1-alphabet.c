@@ -7,15 +7,18 @@
  * Return: 0
  */
 void print_alphabet(void)
-{	
+
+{
 	int alphabet;
 
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 
 	{
 		_putchar(alphabet);
-
+		
 	}
+
+		if (alphabet == 'z')
 
 
 	_putchar('\n');
