@@ -15,10 +15,16 @@ void print_alphabet(void)
 	{
 		_putchar(alphabet);
 
+		if (alphabet == 'z')
+
+		{
+			_putchar('\n');
+
+		}
+
 	}
 
 
 
-	_putchar('\n');
 
 }
