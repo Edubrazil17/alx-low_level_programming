@@ -20,7 +20,7 @@ int main(void)
 
 		if (n == 49)
 		{
-			printf("%ld ", accumulator_2);
+			printf("%ld", accumulator_2);
 		} else
 		{
 			printf("%ld, ", accumulator_2);
