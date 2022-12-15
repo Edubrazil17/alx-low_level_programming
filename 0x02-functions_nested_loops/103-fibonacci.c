@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - this is the entry point of the program 
+* main - this is the entry point of the program
 * Description: this function return 1 or 0
 * Return: 0
 */
