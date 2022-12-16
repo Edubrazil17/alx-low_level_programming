@@ -13,28 +13,22 @@ void print_triangle(int size)
 	int hash;
 
 	if (size <= 0)
-
 	{
 		_putchar(10);
 
 		return;
-
 	}
 
 	for (iter = 1; iter <= size; iter++)
-
 	{
-
 		space = 1;
 
 		while (space <= (size - iter))
 
 		{
-
 			_putchar(' ');
 
 			space++;
-
 		}
 
 		hash = 1;
@@ -42,15 +36,11 @@ void print_triangle(int size)
 		while (hash <= iter)
 
 		{
-
 			_putchar('#');
 
 			hash++;
-
 		}
 
 		_putchar(10);
-
 	}
-
 }
