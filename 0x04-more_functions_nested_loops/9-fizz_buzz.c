@@ -22,7 +22,7 @@ int main(void)
 
 			printf("Buzz");
 
-		if (((iter % 3) !=0) && ((iter % 5) !=0))
+		if (((iter % 3) != 0) && ((iter % 5) != 0))
 
 			printf("%d", iter);
 
