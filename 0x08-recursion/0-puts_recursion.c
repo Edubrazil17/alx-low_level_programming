@@ -1,21 +1,31 @@
-#include "main.h"
-#include <stdio.h>
-void _puts_recursion(char *s) 
+ #include "main.h"
 
-{	if ( *s == '\0' )
+/** main - entry point
+ *
+ *Return: Always 0
+ *
+ */
+
+void _puts_recursion(char *s)
+
+{
+	if (*s == '\0')
+
 	{
 		return;
-
 	}
-		printf("%c", *s);
+	_putchar(*s);
 
 	_puts_recursion(s + 1);
+
+	_putchar('\n');
+
 
 }
 
 int main(void)
 {
-	_puts_recursion("hello world!");
+	_puts_recursion("hello world");
 
 	return (0);
 }
