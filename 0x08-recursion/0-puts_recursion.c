@@ -3,7 +3,8 @@
 /** 
  *  main - entry point
  *
- *  _puts_recursion - call the function
+ *  _puts_recursion -a function that call itself
+ *  *s - string
  *  Return: nothing
  *
  */
