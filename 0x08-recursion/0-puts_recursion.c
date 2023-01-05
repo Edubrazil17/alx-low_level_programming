@@ -1,8 +1,10 @@
  #include "main.h"
 
-/** main - entry point
+/** 
+ *  main - entry point
  *
- *Return: nothing
+ *  _puts_recursion - call the function
+ *  Return: nothing
  *
  */
 
