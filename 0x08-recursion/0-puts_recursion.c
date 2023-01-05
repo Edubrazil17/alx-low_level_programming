@@ -2,7 +2,7 @@
 
 /** main - entry point
  *
- *Return: Always 0
+ *Return: nothing
  *
  */
 
@@ -21,11 +21,4 @@ void _puts_recursion(char *s)
 	_putchar('\n');
 
 
-}
-
-int main(void)
-{
-	_puts_recursion("hello world");
-
-	return (0);
 }
